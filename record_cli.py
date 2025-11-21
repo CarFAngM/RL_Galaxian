@@ -12,7 +12,6 @@ def main():
     parser.add_argument('--output_dir', type=str, default='videos')
     args = parser.parse_args()
 
-    # Create agent and load
     state_shape = (4, 84, 84)
     n_actions = 6
     agent = DQNAgent(state_shape, n_actions)

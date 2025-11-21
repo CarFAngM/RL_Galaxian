@@ -1,5 +1,79 @@
-venv\
+# Checkpoints y modelos entrenados (archivos muy pesados)
+checkpoints_dqn/
+checkpoints_ac/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
 
+# Videos grabados (archivos muy pesados)
+videos_dqn/
+videos_ac/
+videos/
+*.mp4
+*.avi
+*.mkv
 
+# Gráficas generadas
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
+venv/
+venv\
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Datos temporales
+*.tmp
+*.temp
+
+# ROM de Atari (si las tienes localmente)
+*.bin
+*.rom
+
+# Cache de Gymnasium/ALE
+.ale/
