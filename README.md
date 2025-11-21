@@ -196,16 +196,4 @@ Email: ang23010@uvg.edu.gt
 
 MIT License - Libre para uso académico y personal
 
----
-
-## 🤖 Generación Asistida
-
-Este proyecto fue desarrollado con asistencia de **GitHub Copilot** y **Claude AI**, utilizando inteligencia artificial para:
-- Implementación de algoritmos de RL (Double DQN, A2C, PPO)
-- Optimización de código y memoria
-- Debugging y resolución de problemas
-- Documentación y mejores prácticas
-- Arquitectura modular del proyecto
-
-La IA facilitó el desarrollo rápido y eficiente, pero el diseño, testing y validación fueron realizados por humanos.
-
+Readme generado con IA
