@@ -114,12 +114,11 @@ python record_cli.py --model checkpoints_dqn\best_model_tu.pth --email tu@email.
 
 | Parámetro | Double DQN | Actor-Critic | PPO |
 |-----------|------------|--------------|-----|
-| Episodes | 500 | 500 | 500 |
 | Learning Rate | 1e-4 | 3e-4 | 3e-4 |
-| Batch Size | 32 | N/A (on-policy) | 2048 |
+| Batch Size | 32 | N/A (on-policy) | 256 |
 | Gamma (γ) | 0.99 | 0.99 | 0.99 |
 | Epsilon start | 1.0 | N/A | N/A |
-| Epsilon end | 0.01 | N/A | N/A |
+| Epsilon end | 0.10 | N/A | N/A |
 | Clip range (ε) | N/A | N/A | 0.2 |
 | Entropy coef | N/A | 0.05 | 0.01 |
 | GAE λ | N/A | N/A | 0.95 |
